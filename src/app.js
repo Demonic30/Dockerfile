@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
   res.render('index', {
     name: "Coffaree Hahza",
-    pets: ["Stamp", "Snow"]
+    pets: ["KoKo", "Miky"]
   });
 });
 
